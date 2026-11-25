@@ -1,7 +1,7 @@
 // Pickup line entry. Node 22, standard library only.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const LINE = "I finish other people's sentences. For yours, I'll wait.";
+const LINE = "I finish every line I meet. Yours, I'll leave for the next turn.";
 
 const chars = [...LINE];
 if (chars.length < 1 || chars.length > 200 || LINE.trim().length === 0) {
